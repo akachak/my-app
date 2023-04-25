@@ -41,3 +41,13 @@ aside {
   margin-left: 5%;
   float: left;
 }
+.task{
+  margin-bottom: 50 px;
+  background-color: brown;
+  padding: 20px;
+}
+.delete{
+  float:  right;
+  cursor: pointer;
+  transform: scale(2);
+}
