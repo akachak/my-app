@@ -46,8 +46,38 @@ aside {
   background-color: brown;
   padding: 20px;
 }
+.taskRight{
+  margin-bottom: 50 px;
+  background-color: rgb(42, 165, 63);
+  padding: 20px;
+}
+.taskHead{
+  margin-bottom: 50 px;
+  background-color: rgb(165, 42, 110);
+  padding: 20px;
+}
 .delete{
   float:  right;
   cursor: pointer;
   transform: scale(2);
+}
+.check{
+  float:  right;
+  margin-right: 20px;
+  cursor: pointer;
+  transform: scale(2);
+}
+aside form input, aside form button{
+  width: 90%;
+  padding: 15px 5%;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border: 0;
+  background: #222;
+  color:antiquewhite;
+  outline: none;
+  font-size:  15 px;
+}
+aside form label{
+  color:antiquewhite;
 }
