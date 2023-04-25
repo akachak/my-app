@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  background-image: url(1.jpg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-color:blueviolet;
+  padding: 20px;
+  font-weight: 600;
+}
+
+p {
+  color: blanchedalmond
+}
+
+main {
+margin: 50 px 100 px;
+width: 50%;
+float: left;
+}
+
+aside {
+  width: 20%;
+  margin-top: 50 px;
+  margin-left: 5%;
+  float: left;
+}
